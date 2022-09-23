@@ -150,9 +150,19 @@
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hoo-CK-WZ9">
                                                 <rect key="frame" x="18" y="28" width="378" height="100"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sleep" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="645-ql-gI9">
+                                                        <rect key="frame" x="9" y="9" width="43" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" systemColor="systemMintColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="100" id="638-hh-Ytx"/>
+                                                    <constraint firstItem="645-ql-gI9" firstAttribute="top" secondItem="Hoo-CK-WZ9" secondAttribute="top" constant="9" id="nyt-6i-ci7"/>
+                                                    <constraint firstItem="645-ql-gI9" firstAttribute="leading" secondItem="Hoo-CK-WZ9" secondAttribute="leading" constant="9" id="pJa-je-g02"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
@@ -163,8 +173,18 @@
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Ah-uC-eel">
                                                 <rect key="frame" x="18" y="138" width="378" height="100"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Njq-oz-qHd">
+                                                        <rect key="frame" x="8" y="8" width="44" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" systemColor="systemOrangeColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
+                                                    <constraint firstItem="Njq-oz-qHd" firstAttribute="leading" secondItem="6Ah-uC-eel" secondAttribute="leading" constant="8" id="YDj-nc-vsQ"/>
+                                                    <constraint firstItem="Njq-oz-qHd" firstAttribute="top" secondItem="6Ah-uC-eel" secondAttribute="top" constant="8" id="s1z-fc-mME"/>
                                                     <constraint firstAttribute="height" constant="100" id="sPR-S1-YKi"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
@@ -176,9 +196,19 @@
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wrl-Ki-a3i">
                                                 <rect key="frame" x="18" y="248" width="378" height="50"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Show All Health Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWm-89-yrE">
+                                                        <rect key="frame" x="16" y="15" width="159" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="1N9-IZ-93C"/>
+                                                    <constraint firstItem="EWm-89-yrE" firstAttribute="leading" secondItem="wrl-Ki-a3i" secondAttribute="leading" constant="16" id="DW3-Tm-wbc"/>
+                                                    <constraint firstItem="EWm-89-yrE" firstAttribute="top" secondItem="wrl-Ki-a3i" secondAttribute="top" constant="15" id="mGC-Kq-4ef"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
@@ -189,9 +219,19 @@
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y2x-uS-UJw">
                                                 <rect key="frame" x="18" y="349" width="378" height="50"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Show All Health Trends" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BCE-1E-iV0">
+                                                        <rect key="frame" x="16" y="15" width="176" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
+                                                    <constraint firstItem="BCE-1E-iV0" firstAttribute="leading" secondItem="Y2x-uS-UJw" secondAttribute="leading" constant="16" id="3Ip-XM-FVf"/>
                                                     <constraint firstAttribute="height" constant="50" id="LCe-m0-ak0"/>
+                                                    <constraint firstItem="BCE-1E-iV0" firstAttribute="top" secondItem="Y2x-uS-UJw" secondAttribute="top" constant="15" id="kbt-IK-Pa3"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
@@ -208,8 +248,18 @@
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FGi-ni-m8k">
                                                 <rect key="frame" x="18" y="450" width="378" height="200"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Walking + Running Distance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wO-zA-BAZ">
+                                                        <rect key="frame" x="8" y="8" width="213" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" systemColor="systemOrangeColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
+                                                    <constraint firstItem="0wO-zA-BAZ" firstAttribute="top" secondItem="FGi-ni-m8k" secondAttribute="top" constant="8" id="6jP-Mp-Ohd"/>
+                                                    <constraint firstItem="0wO-zA-BAZ" firstAttribute="leading" secondItem="FGi-ni-m8k" secondAttribute="leading" constant="8" id="N9h-pq-2gE"/>
                                                     <constraint firstAttribute="height" constant="200" id="UHZ-pU-J70"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
@@ -329,6 +379,12 @@
         </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
